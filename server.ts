@@ -28,7 +28,7 @@ dotenv.config();
 initDatabase();
 seedDatabaseIfEmpty();
 
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 const JWT_SECRET = process.env.JWT_SECRET || crypto.createHash('sha256').update(process.cwd() + 'changeguard-secret').digest('hex');
 
 interface AuthUser {
