@@ -1,0 +1,6 @@
+{
+  "name": "ChangeGuard",
+  "description": "Requirement Change Impact Analysis & Regression Test Prioritization platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
